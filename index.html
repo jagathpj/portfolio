@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- =============================== -->
+    <!-- <script>
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+    history.go(1);
+    };
+    </script> -->
+    
+</head>
+<body>
+    <div class= containers >
+        
+ <nav id="top">
+        
+    
+    <ul id="sidemenu" class="navItems">
+    <li><a   href="#home" >HOME</a></1i>
+    <li><a href="#about" >ABOUT</a></1i>
+    <li><a href="#services">SERVICES</a></1li>
+    <li><a href="#portfolio">WORKS</a></1li>  
+    <li><a href="#contact">CONTACT</a></1i>
+        <i style="color: white;" class="fas fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i style="color: white; margin-top: 30px;" class="fas fa-bars" onclick="openmenu()"></i>
+
+</nav>
+    <div id="home" class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">HELLO</span>
+            <h1 id="h1">I'm <spn class="nameheading" >Jagath</spn >,</h1>
+            <h1 id="h1">I'm  <span class="multiText"></span></h1>
+            <p>Hi there, I'm a Front End Developer and Web Designer. I Enjoy Taking Complex Problems & Turning them into Simple. I also Love the Structure of Coding and to Write Efficient Code, Whether it be HTML,CSS or JavaScript</p>
+            <div class="btns">
+                <!-- <button>download cv</button>
+                <button>hire me</button> -->
+            </div>
+        </div>
+        <div class="cols cols1">
+            <div class="imgbox">
+    
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- ---------------------------------------------------------------about---------------------------------------------------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img  src="./images/IMG_20230717_143236.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 style="color: #19d26f;" class="subtitle">About Me</h1>
+                    <p>I'm Jagath , a Web developer, Kerala, India.
+                        <br>
+                        My passion is making ideas come to life, be it working solo, as part of a team or <br> leading a team.
+                         <br>
+                        I consider myself creative and hardworking, as my stats show. If you liked my profile <br>
+                         so far, drop me a message and we'll discuss how I can be useful to your project.</p>
+                    <div class="tab-title">
+                        <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>WEB DEVELOPER</span><br>Designing front and back end of the website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li><span>ME(A)RN STACK DEVELOPER</span><br>Currently studying <br> at Luminar Technolab , Kochi (2022-2023)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>GOVT POLYTECHNIC COLLEGE KORATTY, THRISSUR
+                             </span><br>DIPLOMA IN PLOYMER CHEMISTRY(2019-2022)</li>
+                            <li><span>GHSS CHEMBUCHIRA</span><br>HIGHER SECONDARY IN COMPUTER SCIENCE(2016-2017)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------------services--------------------------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 style="color: #19d26f;" class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Fast, responsive and engaging websites that bring your ideas to life.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2>
+                <p>
+                    enhancing the business growth of our customers with creative Design and Development to deliver market-defining high-quality solutions that create value and consistent competitive advantage for our clients around the world.</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- -=---------------------------My Work--------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/SAVE_20230717_135759.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Food Delivery App</h3>
+                    <p>The online food delivery websit that allows customers to order food online from a variety of restaurants and have it delivered to their doorstep.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work.jpg" alt="">
+                <div class="layer">
+                    <h3>MOVIE GALLERY</h3>
+                    <p>movie gallery is website to know about latest movies in movie gallery there is a short note about the movie and its rating</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>LUMINAR</h3>
+                 <p>Luminar Technolab is a No.1 Software Training Institute in Kochi & Mavoor Road Calicut, offering you Job Oriented courses on Data Science, Data Analytics, Machine Learning, Python, Big Data & Other Certified IT programs
+
+                 </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+<!-- ----------------------------------------contact----------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 style="color: #19d26f;" class="subtitle">Contact Me</h1>
+                
+<p><i class="fa-sharp fa-solid fa-paper-plane"></i>jagathpj0002@gmail.coM</p>
+                <p><i class="fa-solid fa-square-phone"></i>9048581517</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/jagath.p.j?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                
+                </div>
+                
+            <div class="contact-right"></div>
+            <form id="submit-form" action="">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required >
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <!-- <span id="msg">hello</span> -->
+        </div>
+    </div>
+</div>
+
+<div>
+<a href="#top" class="to-top">
+    <i class="fa-solid fa-jet-fighter-up"></i>
+</a>  
+</div>
+
+<footer>
+    <div class="copyright">
+        <p style="color:#195ad2;">All Rights Reserved &copy; &reg; jagath</p>
+    </div>
+</footer>    
+</body>
+<!-- -------------------------home--------------------------------- -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Coder","Designer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+
+
+// ----------------------------------about---------------------------------
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+// -------------------------------sidemenu-----------------------------------------------
+         var sidemenu = document.getElementById("sidemenu");
+         function openmenu(){
+            sidemenu.style.right = "0";
+         }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+    </script>
+<!-- ----------------------------Contact form--------------------------------------------------- -->
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbxhg3iZKnvNIJ-YeZENNiU-6gYkPRELiECTURClAQKk661ZTTdfonw0Jb3VGpQHVHAD/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+<!-- --------------------------------------up arrow---------------------------------------------------- -->
+     <script>
+        const toTop = document.querySelector(".to-top");
+        window.addEventListener("scroll",()=>{
+        if (window.pageYOffset > 100) {
+        toTop.classList.add( "active" );        
+        } else {
+        toTop.classList.remove( "active" );
+        }
+        })
+      </script> 
+             
+</html>
